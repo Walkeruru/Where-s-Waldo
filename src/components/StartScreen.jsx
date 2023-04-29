@@ -14,7 +14,7 @@ import '../App.css'
 const StartScreen = (props) => {
     return (
         <div>
-            <Modal open sx={{backgroundImage:'url(/whereswaldo.webp)'}}>
+            <Modal open sx={{backgroundImage:'url(./whereswaldo.webp)'}}>
                 <ModalDialog
                     size="lg"
                     variant="soft"
@@ -30,7 +30,7 @@ const StartScreen = (props) => {
                                 <Card>
                                     <CardCover>
                                         <img
-                                            src="/waldo.webp"
+                                            src="./waldo.webp"
                                             loading="lazy"
                                             alt=""
                                         />
@@ -51,7 +51,7 @@ const StartScreen = (props) => {
                                 <Card>
                                     <CardCover>
                                         <img
-                                            src="/Sokka.webp"
+                                            src="./Sokka.webp"
                                             loading="lazy"
                                             alt=""
                                         />
@@ -72,7 +72,7 @@ const StartScreen = (props) => {
                                 <Card>
                                     <CardCover>
                                         <img
-                                            src="/robin.webp"
+                                            src="./robin.webp"
                                             loading="lazy"
                                             alt=""
                                         />

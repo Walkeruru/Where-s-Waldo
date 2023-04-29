@@ -136,7 +136,7 @@ function App() {
         <ImageMap
           onLoad={() => setTime(0)}
           className="usage-map"
-          src={"/whereswaldo.webp"}
+          src={"./whereswaldo.webp"}
           map={mapArea}
           onMapClick={onMapClick}
         />
